@@ -32,7 +32,6 @@ const travelsRoute = require('./routes/travels.js');
 //const authRoute = require('./routes/users.js');
 
 //setting up a view engine
-app.engine('ejs', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.set('layout','layouts/layout');
