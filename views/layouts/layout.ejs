@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <%- include('../partials/head.ejs') %>
+    <title><%= (typeof title != "undefined" ? title : "") %></title>
   <body>
     <%- include('../partials/header.ejs') %>
     <%- include('../partials/error.ejs') %>
