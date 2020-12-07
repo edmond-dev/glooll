@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res)=>{
+router.get('/travel_exp', (req, res)=>{
   res.render("travel/travel_exp", {
     title: "GlobalFriend | Travel"
   });
