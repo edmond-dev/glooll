@@ -14,11 +14,6 @@ router.get('/', (req, res)=>{
   });
 });
 
-router.get('/experiences', (req, res)=>{
-  res.render('activities/experiences',{
-    title: "GlobalFriend | Skill"
-  });
-});
 
 
 
