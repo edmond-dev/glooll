@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/', (req, res)=>{
   res.render('travel/travel_exp',{
-    title:"GlobalFriend | Travel"
+    title: "GlobalFriend | Travel"
   });
 });
 

@@ -10,13 +10,13 @@ const router = express.Router();
 //-------------------------------------------
 router.get('/', (req, res)=>{
   res.render('home/custom_req',{
-    title:"GlobalFriend | Home"
+    title: "GlobalFriend | Home"
   });
 });
 
 router.get('/experiences', (req, res)=>{
   res.render('activities/experiences',{
-    title:"GlobalFriend | Skill"
+    title: "GlobalFriend | Skill"
   });
 });
 
